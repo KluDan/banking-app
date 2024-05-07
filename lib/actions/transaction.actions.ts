@@ -1,4 +1,4 @@
-/* "use server";
+"use server";
 
 import { ID, Query } from "node-appwrite";
 import { createAdminClient } from "../appwrite";
@@ -63,4 +63,3 @@ export const getTransactionsByBankId = async ({
     console.log(error);
   }
 };
- */
